@@ -16,9 +16,9 @@ Things are done differently when you download container images and download gene
     ```shell
     cat <<EOD > /etc/dragonfly/dfget.yml
     nodes:
-        - supernode01:port
-        - supernode02:port
-        - supernode03:port
+    - supernode01:port
+    - supernode02:port
+    - supernode03:port
     EOD
     ```
 
@@ -90,9 +90,9 @@ Things are done differently when you download container images and download gene
         ```sh
         cat <<EOD > /etc/dragonfly/dfget.yml
         nodes:
-            - supernode01:port
-            - supernode02:port
-            - supernode03:port
+        - supernode01:port
+        - supernode02:port
+        - supernode03:port
         EOD
          ```
 
